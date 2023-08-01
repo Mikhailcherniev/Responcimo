@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.fundo{
+    justify-content: space-around;
+    display: flex;
+    background-image: url(https://media.tenor.com/YAOhbZ5GZy4AAAAd/nazar%C3%A9.gif);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info{
+display: flex;
+align-items: center;
+}
+
+.menu{
+  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    text-align: center;
+    padding: 30px 40px;
+    margin: 0 40px;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+   
+}
+
+.menu:hover{
+    transform: scale(1.1);
+    
+    transition: 1000ms;
+    
+    background-color: rgb(157, 104, 104);
+    box-shadow: 0 0 200px 0 #000000;
+    
+}
+
+
